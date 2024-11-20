@@ -1,0 +1,47 @@
+curl 'https://www.linkedin.com/voyager/api/voyagerVideoDashMediaUploadMetadata?action=upload' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'cookie: li_sugr=3dcab145-e270-42a8-b756-45ed85a6376a; bcookie="v=2&216dd8ed-26e9-4110-86d5-212e1a6d9535"; bscookie="v=1&20240205165805ed0dd9b5-65bd-422f-81ef-1e435879bff4AQE9ItRAMaKlrTwnidZssBCTFCu98c4r"; li_alerts=e30=; li_gc=MTsyMTsxNzA3MTU5NzQ4OzI7MDIxBfMfgW04SiM40QB2RpgoTkmB4cApGGpP/399PGececw=; g_state={"i_l":0}; timezone=Europe/Paris; li_theme=light; li_theme_set=app; _guid=5e77adec-16ac-4ca8-877d-61396f21f920; dfpfpt=e7d9bbf63b924746ba4b34d9ae619916; li_rm=AQHyzzvz-D1dlQAAAY1-tN6atMTY-Mx9GQCnqNGD1So5o-TdeF9d3PlloYDALAXt64jC0QCJn0HKXr15-72TkFuGjhZ7opTTjKdcfSLIuhZZUcPZ0WBkIKlj8_bw3LgOqqZb0ipBWUnqfxGpCAqmK61OjmYcrRovdXwgvAgO0iVEG9lW5t6u8rrT61LDbqDVhCrZtKpjZ0WZF9mbf1yi422tLBJAIzvahlORdQs9RjhLKY-YPm0Ar6tQ2WJ7BFJY0Rt2HssORgUYuFbb_TKwBmRzqhPKAtEO_E8vtHBYSd0l7Wsoqk6p_aMng3uZ8TnhDz2Pi-z0Xj9kjxTA2_w; visit=v=1&M; liap=true; JSESSIONID="ajax:3156239291613562708"; s_ips=855; gpv_pn=www.linkedin.com%2Fcompany%2Fid-redacted%2Fadmin%2Ffeed%2Fposts%2F; s_tslv=1707608114451; s_tp=6448; AMCV_14215E3D5995C57C0A495C55%40AdobeOrg=-637568504%7CMCIDTS%7C19765%7CMCMID%7C87860347984789305122181644442816676019%7CMCAAMLH-1708216086%7C6%7CMCAAMB-1708216086%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1707618486s%7CNONE%7CMCCIDH%7C909951057%7CvVersion%7C5.1.1; AnalyticsSyncHistory=AQI19GhqeJpDAwAAAY4EwHPRvOu56RkRl9QpmAMYfq_swYtYQ6iC7szcRSPuPYXgygnUdHhMKKT00-pkBshQWw; lms_ads=AQGPW4pY69Oa_wAAAY4EwHTJydmWJrk_NYvrJIo4uLvYpoTfyR_jc-d9o5rUIonGGeFFYD63TYbZxixrsYx3IN5RzvhPjl2r; lms_analytics=AQGPW4pY69Oa_wAAAY4EwHTJydmWJrk_NYvrJIo4uLvYpoTfyR_jc-d9o5rUIonGGeFFYD63TYbZxixrsYx3IN5RzvhPjl2r; fid=AQEaIDMYUuqzfwAAAY4plYOzvuBt8tZSHKC1c0RZ8PIo-WVGutCWMXZt9VM3FaBzeGHtbMVPj8K9eg; li_at=AQEDATnsHuUCYyDNAAABjX606H0AAAGOW3F5ME0AHvA8PW4zd_Bb8Xmnplwu5wE1zhtlOMeaLIXJH0eJjd1YQ14ojWzEonGoMdLb9kEbR2CMYDhdjhmo8FKtoaJKBT4qDkltozigXYdTaF8fJtbhFDVy; lang=v=2&lang=fr-fr; lidc="b=TB17:s=T:r=T:a=T:p=T:g=15302:u=3:x=1:i=1710405924:t=1710480784:v=2:sig=AQGy6hJImpQ803OQRo2Tl-2dxh0Oimkn"; df_ts=1710406001704; li_mc=MTsyMTsxNzEwNDE0MTg2OzI7MDIxeY0CuXL+c0Yw2DIuc8AAmKRdWadjvJZPa9mi3he0nR4=; UserMatchHistory=AQJd6eO233NifgAAAY48ocfvaQj2MtHX0yMi0C52TruL_GrwTwuekadUGm36HQN98Ok98H1yzdEnM4pak-Mnvyl82L8wEKAQ8WczTSduc9EZOBw0LOBJDgABhl7Lgz2DSZYgyxJPFoDW-6MztXSfKrxYed9pUXuYXFhs2ek3K4xmhXMNwbxdNZfX_59rQ0TvZD4Iqfg1BSdYHlnMRsag59EeQNUtLo0vy90p6411pBkZGoEuXPj61lzrFfLnoCbNXzAT4i9o-s9iZ9k_M-SL--y2djWVjE79nDP19iAYC82Iu2WB3X-3YWsrdNG-N7_TtTgJ5LO48kB9g_8m9mhQfMbKtcGZQAY3Wor1UdiIEl4--I1zoA' \
+  -H 'csrf-token: ajax:3156239291613562708' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/company/100569260/admin/feed/posts/' \
+  -H 'sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:organization_admin_admin_feed_index;2915a180-83fa-4e72-afa8-27cf982dcac9' \
+  -H 'x-li-track: {"clientVersion":"1.13.12152","mpVersion":"1.13.12152","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"mediaUploadType":"IMAGE_SHARING","fileSize":26956,"nonMemberActorUrn":"urn:li:fsd_company:100569260","filename":"mockup_apple_iphone_13_2021_793ab5435d.png"}'
+
+
+curl 'https://www.linkedin.com/voyager/api/contentcreation/normShares' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'cookie: li_sugr=3dcab145-e270-42a8-b756-45ed85a6376a; bcookie="v=2&216dd8ed-26e9-4110-86d5-212e1a6d9535"; bscookie="v=1&20240205165805ed0dd9b5-65bd-422f-81ef-1e435879bff4AQE9ItRAMaKlrTwnidZssBCTFCu98c4r"; li_alerts=e30=; li_gc=MTsyMTsxNzA3MTU5NzQ4OzI7MDIxBfMfgW04SiM40QB2RpgoTkmB4cApGGpP/399PGececw=; g_state={"i_l":0}; timezone=Europe/Paris; li_theme=light; li_theme_set=app; _guid=5e77adec-16ac-4ca8-877d-61396f21f920; dfpfpt=e7d9bbf63b924746ba4b34d9ae619916; li_rm=AQHyzzvz-D1dlQAAAY1-tN6atMTY-Mx9GQCnqNGD1So5o-TdeF9d3PlloYDALAXt64jC0QCJn0HKXr15-72TkFuGjhZ7opTTjKdcfSLIuhZZUcPZ0WBkIKlj8_bw3LgOqqZb0ipBWUnqfxGpCAqmK61OjmYcrRovdXwgvAgO0iVEG9lW5t6u8rrT61LDbqDVhCrZtKpjZ0WZF9mbf1yi422tLBJAIzvahlORdQs9RjhLKY-YPm0Ar6tQ2WJ7BFJY0Rt2HssORgUYuFbb_TKwBmRzqhPKAtEO_E8vtHBYSd0l7Wsoqk6p_aMng3uZ8TnhDz2Pi-z0Xj9kjxTA2_w; visit=v=1&M; liap=true; JSESSIONID="ajax:3156239291613562708"; s_ips=855; gpv_pn=www.linkedin.com%2Fcompany%2Fid-redacted%2Fadmin%2Ffeed%2Fposts%2F; s_tslv=1707608114451; s_tp=6448; AMCV_14215E3D5995C57C0A495C55%40AdobeOrg=-637568504%7CMCIDTS%7C19765%7CMCMID%7C87860347984789305122181644442816676019%7CMCAAMLH-1708216086%7C6%7CMCAAMB-1708216086%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1707618486s%7CNONE%7CMCCIDH%7C909951057%7CvVersion%7C5.1.1; AnalyticsSyncHistory=AQI19GhqeJpDAwAAAY4EwHPRvOu56RkRl9QpmAMYfq_swYtYQ6iC7szcRSPuPYXgygnUdHhMKKT00-pkBshQWw; lms_ads=AQGPW4pY69Oa_wAAAY4EwHTJydmWJrk_NYvrJIo4uLvYpoTfyR_jc-d9o5rUIonGGeFFYD63TYbZxixrsYx3IN5RzvhPjl2r; lms_analytics=AQGPW4pY69Oa_wAAAY4EwHTJydmWJrk_NYvrJIo4uLvYpoTfyR_jc-d9o5rUIonGGeFFYD63TYbZxixrsYx3IN5RzvhPjl2r; fid=AQEaIDMYUuqzfwAAAY4plYOzvuBt8tZSHKC1c0RZ8PIo-WVGutCWMXZt9VM3FaBzeGHtbMVPj8K9eg; li_at=AQEDATnsHuUCYyDNAAABjX606H0AAAGOW3F5ME0AHvA8PW4zd_Bb8Xmnplwu5wE1zhtlOMeaLIXJH0eJjd1YQ14ojWzEonGoMdLb9kEbR2CMYDhdjhmo8FKtoaJKBT4qDkltozigXYdTaF8fJtbhFDVy; lang=v=2&lang=fr-fr; lidc="b=TB17:s=T:r=T:a=T:p=T:g=15302:u=3:x=1:i=1710405924:t=1710480784:v=2:sig=AQGy6hJImpQ803OQRo2Tl-2dxh0Oimkn"; df_ts=1710406001704; li_mc=MTsyMTsxNzEwNDE0MTg2OzI7MDIxeY0CuXL+c0Yw2DIuc8AAmKRdWadjvJZPa9mi3he0nR4=; UserMatchHistory=AQJd6eO233NifgAAAY48ocfvaQj2MtHX0yMi0C52TruL_GrwTwuekadUGm36HQN98Ok98H1yzdEnM4pak-Mnvyl82L8wEKAQ8WczTSduc9EZOBw0LOBJDgABhl7Lgz2DSZYgyxJPFoDW-6MztXSfKrxYed9pUXuYXFhs2ek3K4xmhXMNwbxdNZfX_59rQ0TvZD4Iqfg1BSdYHlnMRsag59EeQNUtLo0vy90p6411pBkZGoEuXPj61lzrFfLnoCbNXzAT4i9o-s9iZ9k_M-SL--y2djWVjE79nDP19iAYC82Iu2WB3X-3YWsrdNG-N7_TtTgJ5LO48kB9g_8m9mhQfMbKtcGZQAY3Wor1UdiIEl4--I1zoA' \
+  -H 'csrf-token: ajax:3156239291613562708' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/company/100569260/admin/feed/posts/' \
+  -H 'sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:organization_admin_admin_feed_index;2915a180-83fa-4e72-afa8-27cf982dcac9' \
+  -H 'x-li-pem-metadata: Voyager - Feed - Posts=create-normshare' \
+  -H 'x-li-track: {"clientVersion":"1.13.12152","mpVersion":"1.13.12152","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"visibleToConnectionsOnly":false,"externalAudienceProviders":[],"commentaryV2":{"text":"Salut","attributes":[]},"origin":"ORGANIZATION","allowedCommentersScope":"ALL","postState":"PUBLISHED","media":[{"category":"IMAGE","mediaUrn":"urn:li:digitalmediaAsset:D4E22AQEhpLG4d_hd9Q","tapTargets":[],"altText":""}],"dashNonMemberActor":"urn:li:fsd_company:100569260"}'

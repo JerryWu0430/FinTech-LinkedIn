@@ -1,0 +1,19 @@
+curl 'https://www.linkedin.com/voyager/api/graphql?variables=(commentsCount:0,likesCount:0,includeCommentsFirstReply:False,moduleKey:feed-item%3Adesktop,urnOrNss:urn%3Ali%3Aactivity%3A7144956179398488064)&queryId=voyagerFeedDashUpdates.4dcfe64a6cb017481619f23a8c8986ed' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'referer: https://www.linkedin.com/in/mstrukov/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;PoEh+D7VSNS1/J9SfTvaJw==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --compressed

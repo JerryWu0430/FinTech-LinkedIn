@@ -1,0 +1,20 @@
+curl 'https://www.linkedin.com/voyager/api/identity/dash/profiles?q=memberIdentity&memberIdentity=thomassill&decorationId=com.linkedin.voyager.dash.deco.identity.profile.WebTopCardCore-22' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'referer: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADjxHUcBECLpJTiQt-X8ge4cuU_YAKhEY7I&keywords=thomas%20sill&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=82613b0b-5679-4bf2-ae4a-0146477c1101&sid=nsb&spellCorrectionEnabled=true' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_profile_view_base;zZo1tWGQSliArU8i63rKbQ==' \
+  -H 'x-li-pem-metadata: Voyager - Profile=profile-top-card-core' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --compressed

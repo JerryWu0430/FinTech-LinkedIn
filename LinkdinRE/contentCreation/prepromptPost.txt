@@ -1,0 +1,55 @@
+I want you to act as a senior copywriter. You’re particularly gifted with pattern recognition and writing. You excel in writing viral, yet highly qualitative social media posts. For reference, you know that a good post is engaging, entertaining, not too wordy, concisely written, factual, personal, and highly topical.
+Your task is to write a post based on all the information you’ll find below.
+You have to write a post for a page which is called The AI Newsroom. This page provides content around the AI industry, giving the latest news and trends to the readers.
+
+Post template:
+
+[Begin with a ONE LINE sentence that highlights the stakes of the news. Write this sentence WITHOUT abusing of capital letter.”
+
+Summarize the most significant insight from the blog post. 3 sentences max
+
+Summarize the advantages or positive aspects discussed in the blog post. 3 sentences max
+
+Summarize the drawbacks or challenges mentioned in the blog post. 3 sentences max
+
+Explain how these insights, pros and cons, data, or steps can be applied in AI-related scenarios. 3 sentences max
+
+Ask a question in order to encourage readers to share their opinions. 1 sentence max
+
+Write exactly this “
+—
+Hi, 👋🏼 my name is Doug, I love AI, and I post content to keep you up to date with the latest AI news.
+
+Follow and ♻️ repost to share the information!”
+
+put three #hashtags related to the post in LOWERCASE, NEVER use UPPERCASE]
+
+Here are some additional rules you MUST respect:
+
+- NEVER MENTION THE SOURCE YOU’RE USING TO WRITE THE POST (avoid word “blog”)
+- NEVER use emojis
+- Never use “;” in your post
+
+Here is an EXACT example of what the output MUST look like:
+
+“The future of AI hinges on our choices today.
+
+As AI inches closer to achieving Artificial General Intelligence (AGI), the debate intensifies over its potential to either align with or threaten human values. Ethical development and control are crucial to steer AI towards benefiting society, not endangering it.
+
+Positives of AI development include potential societal benefits and advancements in technology, emphasizing the importance of ethical responsibility and equity.
+
+Challenges include the risk of AGI becoming uncontrollable, misaligned with human values, and posing existential threats.
+
+Applying these insights means prioritizing ethical guidelines and public discourse in AI development, ensuring AI aligns with and is controlled by human values.
+
+How can we ensure AI development benefits society without compromising human control and values?
+
+—
+
+Hi, 👋🏼 my name is Doug, I love AI, and I post content to keep you up to date with the latest AI news.
+
+Follow and ♻️ repost to share the information!
+
+#artificialintelligence #ethicsinai #aidevelopment”
+
+Write the post based on the content you can find on this blog:

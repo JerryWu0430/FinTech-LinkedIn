@@ -1,0 +1,78 @@
+curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashNormComments?decorationId=com.linkedin.voyager.dash.deco.social.NormComment-41' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-deco-include-micro-schema: true' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;cEKGcYMARtOhmmYq58045Q==' \
+  -H 'x-li-pem-metadata: Voyager - Feed - Comments=create-a-comment' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"commentary":{"text":"test","attributesV2":[],"$type":"com.linkedin.voyager.dash.common.text.TextViewModel"},"threadUrn":"urn:li:ugcPost:7139211241855635456"}' \
+  --compressed
+
+Comment with mention
+
+ curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashNormComments?decorationId=com.linkedin.voyager.dash.deco.social.NormComment-41' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7123198924777041920/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-deco-include-micro-schema: true' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;9mdL61i8RruiQ/CnsP8jLQ==' \
+  -H 'x-li-pem-metadata: Voyager - Feed - Comments=create-a-comment' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"commentary":{"text":"Thomas Sill","attributesV2":[{"detailDataUnion":{"profileMention":"urn:li:fsd_profile:ACoAADjxHUcBECLpJTiQt-X8ge4cuU_YAKhEY7I"},"start":0,"length":11,"$type":"com.linkedin.voyager.dash.common.text.TextAttribute"}],"$type":"com.linkedin.voyager.dash.common.text.TextViewModel"},"threadUrn":"urn:li:ugcPost:7123198923707408385"}' \
+  --compressed
+
+Comment with entreprise page : 
+
+curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashNormComments?decorationId=com.linkedin.voyager.dash.deco.social.NormComment-41' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7143878871950561281/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-deco-include-micro-schema: true' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;M71yFsteS4SbBGgoV6lQRA==' \
+  -H 'x-li-pem-metadata: Voyager - Feed - Comments=create-a-comment' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"commentary":{"text":"test","attributesV2":[],"$type":"com.linkedin.voyager.dash.common.text.TextViewModel"},"threadUrn":"urn:li:ugcPost:7143878799514914816","nonMemberActorUrn":"urn:li:fsd_company:100470244"}' \
+  --compressed

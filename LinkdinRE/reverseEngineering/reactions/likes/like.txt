@@ -1,0 +1,151 @@
+23 decembre 2023
+to check diff : https://www.diffchecker.com/text-compare/
+
+in the url, the post id to like is at the end : 7144348990120108032
+If you change that, you could like another post
+
+curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashReactions?threadUrn=urn%3Ali%3AugcPost%3A7144348990120108032' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'cookie: bcookie="v=2&14a804e5-278e-4777-89cd-0fde1cfeecbd"; bscookie="v=1&20231223160331c24781cd-e607-4020-86fc-0ff5fafdfd16AQGzhb4-D44cWMBwXGTppYRb7z0XwOK_"; li_gc=MTswOzE3MDMzNDc0MTE7MjswMjGopOorF2IcvnsuZUA0vxCXps6lM1XeBQKaSmRAwTpUjw==; fid=AQHS8FHtvSrzfQAAAYyXat1dTMFhPdynYeC9vjWZDGSmM3I25Wk6nfT0Bqre70cqbRaXdFNVcxc4Ig; li_alerts=e30=; g_state={"i_l":0}; li_at=AQEDATnsHuUA1jRsAAABjJdq8HsAAAGMu3d0e04AT1ctj8dlQ9ZQCoz0C1tZwRQqEKyyWn_9AVDp0eR1LKjlFG7PoLq_ka0OKGzLMbLFeXmgf8cRySCyL9wYxEDRltWj_tOFre12mkh3TYO5lAwy1PgW; liap=true; JSESSIONID="ajax:1457461695451308015"; timezone=Europe/Paris; li_theme=light; li_theme_set=app; lang=v=2&lang=fr-fr; lidc="b=TB17:s=T:r=T:a=T:p=T:g=11807:u=120:x=1:i=1703349520:t=1703435920:v=2:sig=AQFZ0xTEBss7bhdIHI2XMI0OK-HRs0jx"; li_mc=MTsyMTsxNzAzMzUyMDIyOzI7MDIxywy8fvkUV+Hv+yDpbN6yFh4tuPv+rS8O5ABrSM+W8tQ=' \
+  -H 'csrf-token: ajax:1457461695451308015' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_feed;7RkRAx/rTPG58BptsfSeeg==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"reactionType":"LIKE"}' \
+  --compressed
+
+curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashReactions?threadUrn=urn%3Ali%3AugcPost%3A7144552326886850560' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7144552330162606080/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;MvS/7jZUS3WBBU09pdXKKQ==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"reactionType":"LIKE"}' \
+  --compressed
+
+
+
+curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashReactions?threadUrn=urn%3Ali%3AugcPost%3A7144419400295620608' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7144419400920551424/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;2/93IvMwSraWaQbic7M7wA==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"reactionType":"LIKE"}' \
+  --compressed
+
+
+
+curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashReactions?threadUrn=urn%3Ali%3AugcPost%3A7144355409426862080' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;9dT6fOvVRkS7BKXCvwmXWg==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"reactionType":"LIKE"}' \
+  --compressed
+
+ 24 decembre 2023 : 12:21
+
+ curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashReactions?threadUrn=urn%3Ali%3AugcPost%3A7144683011781894144' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7144941093787213824/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;zYs91GXkQ3aqIMZyACPF+A==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"reactionType":"LIKE"}' \
+  --compressed
+
+ Like with AI actualité : 
+ curl 'https://www.linkedin.com/voyager/api/voyagerSocialDashReactions?threadUrn=urn%3Ali%3Aactivity%3A7146355702905643008' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.linkedin.com' \
+  -H 'referer: https://www.linkedin.com/feed/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_feed;FcFTel9VQoGLASrad0iplg==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8499","mpVersion":"1.13.8499","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --data-raw '{"reactionType":"LIKE","actorUrn":"urn:li:fsd_company:100470244"}' \
+  --compressed

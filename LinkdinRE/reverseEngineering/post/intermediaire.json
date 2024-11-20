@@ -1,0 +1,28 @@
+{
+    "data": {
+        "data": {
+            "$recipeTypes": [
+                "com.linkedin.db2630ba925628b8ff1782881ecb2292"
+            ],
+            "legoDashPageContentsByPageKeyAndSlotId": {
+                "$recipeTypes": [
+                    "com.linkedin.34415436396b5d8697154d89c5603c40"
+                ],
+                "elements": [
+                    {
+                        "trackingToken": "7hItm5CpmgZp4BQtmZVomMCpn9xq7dvp6lBpzRBrm5epmtxs2pOpmtxumZSfmh9s71x9z0VdzoOcjRAimVLqndOpnoCdP4TdjsTcjsVfmh9tipxcj9yozcTempydjsJoC9CoiRAemoQbjsRoj8JoPgPej1Cp34Zp4BQu6lQrCZz",
+                        "slots": [],
+                        "pageKey": "feed_share",
+                        "$recipeTypes": [
+                            "com.linkedin.904d0b4682612d705fb650fcebf753b7"
+                        ],
+                        "$type": "com.linkedin.voyager.dash.segments.lego.PageContent"
+                    }
+                ],
+                "$type": "com.linkedin.restli.common.CollectionResponse"
+            },
+            "$type": "com.linkedin.db2630ba925628b8ff1782881ecb2292"
+        }
+    },
+    "included": []
+}

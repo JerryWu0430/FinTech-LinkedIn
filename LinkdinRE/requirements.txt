@@ -1,0 +1,7 @@
+langchain
+openai
+tiktoken
+feedparser
+bs4
+firebase_admin
+python-dotenv

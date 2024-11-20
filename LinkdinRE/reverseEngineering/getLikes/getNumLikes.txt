@@ -1,0 +1,41 @@
+curl 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(count:9,start:0,threadUrn:urn%3Ali%3AugcPost%3A7148976775362924544)&queryId=voyagerSocialDashReactions.56bde53f0c6873eb4870f5a25da96573' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7148976776256311296/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;XzktOuI3SZehCiii4eHYFQ==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8817","mpVersion":"1.13.8817","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --compressed
+
+
+
+curl 'https://www.linkedin.com/voyager/api/graphql?variables=(count:10,start:0,threadUrn:urn%3Ali%3AugcPost%3A7149393591805648897)&queryId=voyagerSocialDashReactions.56bde53f0c6873eb4870f5a25da96573' \
+  -H 'authority: www.linkedin.com' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'csrf-token: ajax:1514152367892086323' \
+  -H 'dnt: 1' \
+  -H 'referer: https://www.linkedin.com/feed/update/urn:li:activity:7149693654599696384/' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'x-li-lang: fr_FR' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_detail_base;fCDdyphrStW+zhH1vg+bPQ==' \
+  -H 'x-li-track: {"clientVersion":"1.13.8817","mpVersion":"1.13.8817","osName":"web","timezoneOffset":1,"timezone":"Europe/Paris","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  --compressed
