@@ -4,10 +4,12 @@ import time
 import os
 from dotenv import load_dotenv
 
+# Load environment variables
+load_dotenv(dotenv_path=os.path.join("reverseEngineering", ".env"))
 
-
-with open("reverseEngineering/LinkdIncookiesMain.json", "r") as file:
-    cookies = json.loads(file.read())
+# File paths
+COOKIES_FILE = os.getenv("COOKIES_FILE", "reverseEngineering/LinkdIncookiesMain.json")
+HEADERS_FILE = os.getenv("HEADERS_FILE", "reverseEngineering/headers.json")
 
 
 headers = {
